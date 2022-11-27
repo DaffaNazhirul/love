@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.containerutama{
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(102, 89, 58);
+    text-shadow: -8px 5px 8px rgba(173, 74, 74, 0.466);
+    text-align: center;
+    justify-content: center;
+}
+
+h3{
+    justify-content: center;
+    text-align: center;
+}
+
+.containersatu{
+    margin-top: 20px;
+    border: solid 0.001rem rgb(255, 254, 179);
+    border-radius: 0.4em;
+    color: rgb(53, 53, 53);
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.rowsatu {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.containerteks{
+    margin-top: 20px;
+    border: solid 0.001rem rgb(255, 254, 179);
+    border-radius: 0.4em;
+    color: rgb(53, 53, 53);
+    text-align: center;
+}
+.gambar{
+    display: flex;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.2em;    
+}
+
+.love{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(102, 89, 58);
+    text-shadow: -8px 5px 8px rgba(173, 74, 74, 0.466);
+    text-align: center;
+    justify-content: center;
+}

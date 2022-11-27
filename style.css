@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(88, 88, 88);
+    width: 100%;
+}
+
+.containerutama{
+    width: 80%;
+    margin: 50px auto;
+
+    /* justify-content: center; */
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(248, 224, 178);
+    text-shadow: -8px 5px 8px rgba(173, 74, 74, 0.466);
+}
+.rowsatu {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.containerawal{
+    margin-top: 20px;
+    border: solid 0.001rem rgb(255, 254, 179);
+    position: static;
+    border-radius: 0.4em;
+    text-align: center;
+    color: antiquewhite;
+}
+
+/* .container .row .col .img {
+    max-height: 100px;
+} */
+
+.containerteks{
+
+    /* margin-top: 20px; */
+    border: solid 0.001rem rgb(255, 254, 179);
+    position: static;
+    border-radius: 0.4em;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.containerakhir{
+    margin-top: 20px;
+    border: solid 0.001rem rgb(0, 0, 0);
+    position: static;
+    border-radius: 0.4em;
+    text-align: center;
+    color: antiquewhite;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.2em;
+    
+}
+
+.teks {
+    width: auto;
+    padding: 0px 0.5em;
+}
+/* .ucapan{
+    font-size: 2rem;
+} */
+
+.gambar{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.isi{
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h2{
+font-size: 1.5rem;
+}
